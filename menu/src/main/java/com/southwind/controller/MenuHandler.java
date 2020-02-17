@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/account")
+@RequestMapping("/menu")
 public class MenuHandler {
     @Autowired
     private MenuRepository menuRepository;
